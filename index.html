@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>SHOTEL</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.1/flexslider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ismobilejs/0.4.1/isMobile.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="./js/inview.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.1/jquery.flexslider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <!-- ******HEADER****** -->
+    <header id="top" class="header fixed-top">
+        <div class="container">
+            <h1 class="logo pull-left">
+                <a class="scrollto" href="#promo">
+                    <img id="logo-image" class="logo-image" src="./images/logo/logo.png" alt="Logo">
+                    <span class="logo-title" style="font-weight: normal; font-size: 20px; margin-left: -5px; color: #66615B">HOTEL</span>
+                </a>
+            </h1>
+            <!--//logo-->
+            <nav id="main-nav" class="main-nav navbar-light navbar-expand-md" role="navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
+                    aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only">
+                            <a class="scrollto" href="#promo">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#features">Chức năng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#how">Hướng dẫn sử dụng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#pricing">Bảng giá</a>
+                        </li>
+                        <li class="nav-item last">
+                            <a class="nav-link scrollto" href="#contact">Liên hệ</a>
+                        </li>
+                        <li class="nav-item last">
+                            <a class="nav-link" href="/">Dùng ngay</a>
+                        </li>
+                    </ul>
+                    <!--//nav-->
+                </div>
+                <!--//navabr-collapse-->
+            </nav>
+            <!--//main-nav-->
+        </div>
+    </header>
+    <!--//header-->
+    <!-- ******PROMO****** -->
+    <section id="promo" class="promo section offset-header has-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="overview col-lg-12 col-12" style="min-height: 400px">
+                    <h2 class="title">SHotel ứng dụng quản lý nhà nghỉ, khách sạn</h2>
+                    <ul class="summary">
+                        <li>Quản lý trên web</li>
+                        <li>Giao diện trực quan dễ dàng sử dụng</li>
+                        <li>Dữ liệu đồng bộ, an toàn, bảo mật</li>
+                    </ul>
+                    <div class="download-area" style="display: none">
+                        <ul class="list-inline">
+                            <li class="ios-btn list-inline-item"><a href="#">Download from the App Store</a></li>
+                            <li class="android-btn list-inline-item"><a href="#">Get it from Google Play</a></li>
+                        </ul>
+                        <div class="note text-center">
+                            <p>Dùng thử ngay <br /> SHotel</p>
+                            <span class="left-arrow"></span>
+                            <span class="right-arrow"></span>
+                        </div>
+                        <!--//note-->
+                    </div>
+                    <div class="slider-web d-none d-lg-block flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img src="./images/web/home.png" />
+                            </li>
+                            <li>
+                                <img src="./images/web/system.png" />
+                            </li>
+                            <li>
+                                <img src="./images/web/waiting.png" />
+                            </li>
+                            <li>
+                                <img src="./images/web/rent.png" />
+                            </li>
+                            <li>
+                                <img src="./images/web/checkout.png" />
+                            </li>
+                            <li>
+                                <img src="./images/web/inventory.png" />
+                            </li>
+                            <li>
+                                <img src="./images/web/statistic.png" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--//overview-->
+                <!--// iPhone starts -->
+                <div class="phone android iphone-x col-lg-4 col-12" style="display:none">
+                    <div class="android-holder phone-holder">
+                        <div class="android-holder-inner">
+                            <div class="slider flexslider">
+                                <ul class="slides">
+                                    <li class="flex-active-slide" data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
+                                        <img src="./images/android/android-1.png" alt="" draggable="false">
+                                    </li>
+                                    <li data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"
+                                        class="">
+                                        <img src="./images/android/android-2.png" alt="" draggable="false">
+                                    </li>
+                                    <li data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"
+                                        class="">
+                                        <img src="./images/android/android-3.png" alt="" draggable="false">
+                                    </li>
+                                </ul>
+                                <!--//slides-->
+
+                            </div>
+                            <!--//iphone-holder-inner-->
+                        </div>
+                        <!--//iphone-holder-->
+                    </div>
+                    <!--//iphone-->
+                    <!--// iPhone ends -->
+                </div>
+                <!--//row-->
+            </div>
+            <!--//container-->
+    </section>
+    <!--//promo-->
+    <!-- ******FEATURES****** -->
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center sr-only">Chức năng</h2>
+                <div class="item col-lg-3 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-money"></i>
+                    </div>
+                    <!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Cách tính tiền</h3>
+                        <p>Tạo cách tính tiền riêng, giá, giờ nhận, trả phòng, dựa vào các thông tin trên để tính tiền
+                            chính xác nhất</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+                <div class="item col-lg-3 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-bed"></i>
+                    </div>
+                    <!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Quản lý phòng</h3>
+                        <p>Tùy chỉnh phân loại phòng, thêm sửa xoá phòng, áp dụng cách tính tiền cho từng phòng.</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+                <div class="item col-lg-3 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-cutlery"></i>
+                    </div>
+                    <!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Quản lý menu</h3>
+                        <p>Thêm sửa xoá menu đồ ăn, đồ uống hay các dịch vụ khác của nhà nghỉ, khách sạn.</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+                <div class="item col-lg-3 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Quản lý tài khoản</h3>
+                        <p>Thêm các tài khoản phụ để giúp quản lý nhà nghỉ, khách sạn dễ dàng hơn. Có chức năng phân
+                            quyền.</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+            </div>
+            <!--//row-->
+
+            <div class="row feature-row-last">
+                <div class="item col-lg-4 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-area-chart"></i>
+                    </div>
+                    <!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Thống kê</h3>
+                        <p>Sử dụng dữ liệu để thống kê dạng đồ thị giúp quý khách có cách nhìn trực quan về tình hình
+                            kinh doanh của mình.</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+                <div class="item col-lg-4 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-hand-o-up"></i>
+                    </div>
+                    <!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Chức năng cơ bản</h3>
+                        <p>Chức năng cơ bản của nghiệp vụ nhà nghỉ, khách sạn: nhận phòng, thêm dịch vụ, trả phòng, dọn
+                            phòng.</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+                <div class="item col-lg-4 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-cloud-upload"></i>
+                    </div>
+                    <!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Chức năng khác</h3>
+                        <p>Tính tiền tự động, linh hoạt, phần mềm mobile dễ dàng sử dụng, dữ liệu đồng bộ giữa các
+                            thiết bị, an toàn, bảo mật.</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//features-->
+    <!-- ******HOW****** -->
+    <section id="how" class="how section has-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="content col-md-6 col-12 order-md-12 text-center " style="display: none!important">
+                    <h2 class="title">Hướng dẫn sử dụng</h2>
+                    <p class="intro">Bạn có thể <a href="#" target="_blank">xem video hướng dẫn</a> cách sử dụng ứng
+                        dụng. Hoặc tải về chi tiết hướng dẫn<a href="" target="_blank"> tại đây</a>.</p>
+                    <div class="qr-codes d-none d-lg-block" style="display: none!important">
+                        <div class="note">
+                            <p>Quét mã QR sau</p>
+                            <span class="left-arrow"></span>
+                            <span class="right-arrow"></span>
+                        </div>
+                        <!--//note-->
+                        <div class="row">
+                            <div class="item col-md-6">
+                                <img src="./images/qrcode/qr-1.png" alt="">
+                                <p>Tải về iOS</p>
+                            </div>
+                            <!--//item-->
+                            <div class="item col-md-6">
+                                <img src="./images/qrcode/qr-1.png" alt="">
+                                <p>Tải về Android</p>
+                            </div>
+                            <!--//item-->
+                        </div>
+                    </div>
+                    <!--//qr-codes-->
+                </div>
+                <!--//content-->
+                <div id="video-container" class="video-container col-md-9 col-12 order-md-1">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="570" height="320" src="https://www.youtube.com/embed/6i-2VxRwbAg"
+                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!--//video-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//how-->
+    <!-- ******FAQ****** -->
+    <section id="faq" class="faq section">
+        <div class="container">
+            <h2 class="title text-center">Câu hỏi thường gặp</h2>
+            <div class="row">
+                <div class="faq-col col-md-6 col-12">
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>SHotel phù hợp với mô hình nhà nghỉ,
+                            khách sạn nào?</h3>
+                        <p class="answer">Với tiêu chí ban đầu xây dựng phần mềm là thay thế quyển sổ ghi chép ở các
+                            nhà nghỉ khách sạn hiện nay, nên phần mềm chúng tôi hướng tới là các nhà nghỉ và khách sạn
+                            quy mô vừa và nhỏ.</p>
+                    </div>
+                    <!--//item-->
+                </div>
+                <!--//faq-col-->
+                <div class="faq-col col-md-6 col-12">
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>SHotel có thu phí sử dụng sản phẩm
+                            không?</h3>
+                        <p class="answer">Hiện tại chúng tôi đang tiến hành chạy dự án, tiếp thu phản hồi để cải thiện
+                            chất lượng sản phẩm nên chưa áp dụng thu phí sử dụng sản phẩm. Chúng tôi dự định trong
+                            tương lai có thu phí.</p>
+                    </div>
+                    <!--//item-->
+                </div>
+                <!--//faq-col-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//faq-->
+    <!-- ******Pricing****** -->
+    <section id="pricing" class="pricing section has-pattern">
+        <div class="container">
+            <h2 class="title text-center">Bảng giá</h2>
+            <div class="price-cols row">
+                <div class="items-wrapper col-lg-10 col-12 ml-lg-auto mr-lg-auto">
+                    <div class="row">
+                        <div class="item price-1 col-md-4 col-12 text-center">
+                            <div class="item-inner">
+                                <div class="heading">
+                                    <h3 class="title">Dùng thử</h3>
+                                    <p class="price-figure"><span class="price-figure-inner"><span class="number">0</span><span
+                                                class="currency">k</span><br><span class="unit">tháng đầu</span></span></p>
+                                </div>
+                                <div class="content">
+                                    <ul class="list-unstyled feature-list">
+                                        <li><i class="fa fa-check"></i>Đầy đủ tính năng</li>
+                                        <li><i class="fa fa-check"></i>Nâng cấp miễn phí</li>
+                                        <li class="disabled"><i class="fa fa-times"></i>Hỗ trợ 24/7</li>
+                                        <li class="disabled"><i class="fa fa-times"></i>Tiết kiệm chi phí</li>
+                                    </ul>
+                                    <a class="btn btn-theme btn-block" href="#">Đăng ký</a>
+
+                                </div>
+                                <!--//content-->
+                            </div>
+                            <!--//item-inner-->
+                        </div>
+                        <!--//item-->
+
+                        <div class="item price-2 col-md-4 col-12 text-center best-buy">
+                            <div class="item-inner">
+                                <div class="heading">
+                                    <h3 class="title">Theo tháng</h3>
+                                    <p class="price-figure"><span class="price-figure-inner"><span class="number">60</span><span
+                                                class="currency">k</span><br><span class="unit">một tháng</span></span></p>
+                                </div>
+                                <div class="content">
+                                    <ul class="list-unstyled feature-list">
+                                        <li><i class="fa fa-check"></i>Đầy đủ tính năng</li>
+                                        <li><i class="fa fa-check"></i>Nâng cấp miễn phí</li>
+                                        <li><i class="fa fa-check"></i>Hỗ trợ 24/7</li>
+                                        <li class="disabled"><i class="fa fa-times"></i>Tiết kiệm chi phí</li>
+                                    </ul>
+                                    <a class="btn btn-theme btn-block" href="#">Đăng ký</a>
+                                </div>
+                                <!--//content-->
+                                <div class="ribbon">
+                                    <div class="text">Yêu thích</div>
+                                </div>
+                                <!--//ribbon-->
+                            </div>
+                            <!--//item-inner-->
+                        </div>
+                        <!--//item-->
+
+                        <div class="item price-3 col-md-4 col-12 text-center">
+                            <div class="item-inner">
+                                <div class="heading">
+                                    <h3 class="title">Theo năm</h3>
+                                    <p class="price-figure"><span class="price-figure-inner"><span class="number">500</span><span
+                                                class="currency">k</span><br><span class="unit">một năm</span></span></p>
+                                </div>
+                                <div class="content">
+                                    <ul class="list-unstyled feature-list">
+                                        <li><i class="fa fa-check"></i>Đầy đủ tính năng</li>
+                                        <li><i class="fa fa-check"></i>Nâng cấp miễn phí</li>
+                                        <li><i class="fa fa-check"></i>Hỗ trợ 24/7</li>
+                                        <li><i class="fa fa-check"></i>Tiết kiệm 30% chi phí</li>
+                                    </ul>
+                                    <a class="btn btn-theme btn-block" href="#">Đăng ký</a>
+
+                                </div>
+                                <!--//content-->
+                                <div class="ribbon">
+                                    <div class="text">Nên dùng</div>
+                                </div>
+                                <!--//ribbon-->
+                            </div>
+                            <!--//item-inner-->
+                        </div>
+                        <!--//item-->
+                    </div>
+                    <!--//row-->
+                </div>
+                <!--//items-wrapper-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//pricing-->
+    <!-- ******CONTACT****** -->
+    <section id="contact" class="contact section has-pattern">
+        <div class="container">
+            <h2 class="title text-center">Liên hệ với chúng tôi</h2>
+            <div class="row text-center">
+                <div class="intro col-lg-6 col-12 ml-lg-auto mr-lg-auto">
+                    <p>Chúng tôi luôn sẵn sàng lắng nghe ý kiến của bạn về sản phẩm, đóng góp của bạn là một phần để
+                        sản phẩm tốt hơn mỗi ngày. </p>
+                    <ul class="list-unstyled contact-details">
+                        <li><i class="fa fa-envelope"></i><a href="mailto:support@qanos.com">support@qanos.com</a></li>
+                        <li><i class="fa fa-phone-square"></i>0902283156</li>
+                    </ul>
+                </div>
+            </div>
+            <!--//row-->
+            <div class="text-center">
+                <ul class="social-icons list-inline">
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+                <!--//social-icons-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//contact-->
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container">
+            <small class="copyright pull-left">Copyright © <a href="#" target="_blank">SA Companny</a></small>
+            <ul class="links list-inline">
+                <li class="list-inline-item"><a href="#">Điều khoản</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!--//footer-->
+</body>
+
+</html>

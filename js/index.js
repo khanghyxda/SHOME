@@ -201,5 +201,5 @@ function register() {
 }
 
 function login() {
-    window.location.href = "http://admin.shotel.vn/user/login";
+    window.location.href = "http://admin.shotel.vn/main/dashboard";
 }

@@ -195,3 +195,11 @@ jQuery(document).ready(function ($) {
 
 
 });
+
+function register() {
+    window.location.href = "http://admin.shotel.vn/user/register";
+}
+
+function login() {
+    window.location.href = "http://admin.shotel.vn/user/login";
+}

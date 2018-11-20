@@ -20,7 +20,13 @@ jQuery(document).ready(function ($) {
     });
 
     /* ======= Flexslider ======= */
-    $('.flexslider').flexslider({
+    $('.phone .flexslider').flexslider({
+        animation: "fade",
+        touch: true,
+        directionNav: false
+    });
+
+    $('.slider-web.flexslider').flexslider({
         animation: "fade",
         touch: true,
         directionNav: false

@@ -1,0 +1,18 @@
+/* .promo .laptop {
+    position: relative;
+  }
+  .promo .laptop .laptop-holder {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: url('../images/laptop/laptop.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .promo .laptop .laptop-holder-inner {
+    position: absolute;
+    width: 830px;
+    left: 185px;
+    top: 30px;
+  } */

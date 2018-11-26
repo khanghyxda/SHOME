@@ -68,7 +68,7 @@ body {
     color: #225742;
   }
   .note {
-    font-family: 'Covered By Your Grace', cursive;
+    /* font-family: 'Covered By Your Grace', cursive; */
     font-size: 22px;
   }
   .row-end {

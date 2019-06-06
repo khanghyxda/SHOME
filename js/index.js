@@ -206,6 +206,6 @@ function register() {
     window.location.href = "https://admin.shotel.vn/user/register";
 }
 
-function login() {
+function goHome() {
     window.location.href = "https://admin.shotel.vn/home";
 }

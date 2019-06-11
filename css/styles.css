@@ -398,7 +398,6 @@ body {
     padding-bottom: 15px;
   }
   .promo .overview {
-    margin-top: 60px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -1686,6 +1685,7 @@ body {
   @media (min-width: 768px) {
     .promo .overview {
       text-align: center;
+      margin-top: 60px;
     }
     .promo .overview .summary {
       margin-left: 60px;

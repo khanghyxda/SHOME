@@ -147,7 +147,7 @@ body {
     text-transform: uppercase;
   }
   .offset-header {
-    padding-top: 90px;
+    padding-top: 80px;
   }
   .has-pattern {
     background-image: url('../images/patterns/pattern-1.png');
@@ -266,7 +266,7 @@ body {
   }
   /* ======= Header ======= */
   .header {
-    padding: 15px 0;
+    padding: 5px 0;
     background: #fff;
     z-index: 9999;
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
@@ -278,7 +278,7 @@ body {
   }
   .header h1.logo {
     margin-top: 5px;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     text-transform: uppercase;
     font-weight: bold;
     font-size: 28px;

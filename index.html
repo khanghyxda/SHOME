@@ -27,8 +27,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.1/jquery.flexslider.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
-    <link rel="stylesheet" href="./css/index.css?v=6">
-    <script src="./js/index.js?v=6"></script>
+    <link rel="stylesheet" href="./css/index.css?v=8">
+    <script src="./js/index.js?v=8"></script>
 </head>
 
 <body>
@@ -86,9 +86,9 @@
     <section id="promo" class="promo section offset-header has-pattern">
         <div class="container">
             <div class="row">
-                <div class="overview col-lg-8 col-12">
+                <div class="overview d-none d-lg-block col-lg-8 col-12">
                     <div class="d-none d-lg-block" style="height: 0.5rem"></div>
-                    <div class="video-container d-none d-lg-block">
+                    <div class="video-container">
                         <div class="embed-responsive embed-responsive-16by9">
                             <!-- <iframe class="embed-responsive-item" height="200px" src="https://www.youtube.com/embed/JhZVbFFQeGA"
                                 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
@@ -113,7 +113,7 @@
                             <!-- <p class="p-0">Dùng thử 7 ngày miễn phí</p> -->
                             <!-- <span class="left-arrow"></span>
                             <span class="right-arrow"></span> -->
-                            <div class="slider-web d-flex w-100 mb-3">
+                            <div class="slider-web d-flex w-100 mb-2">
                                 <div class="flex-grow-1"></div>
                                 <button class="btn btn-danger btn-sm" onclick="register()"><i class="fa fa-user"></i>
                                     Đăng ký
@@ -132,12 +132,6 @@
                             <div class="slider flexslider">
                                 <ul class="slides">
                                     <li>
-                                        <img src="./images/iphone/1.jpg" style="border-radius: 22px">
-                                    </li>
-                                    <li>
-                                        <img src="./images/iphone/2.jpg" style="border-radius: 22px">
-                                    </li>
-                                    <li>
                                         <img src="./images/iphone/3.jpg" style="border-radius: 22px">
                                     </li>
                                     <li>
@@ -154,6 +148,12 @@
                                     </li>
                                     <li>
                                         <img src="./images/iphone/8.jpg" style="border-radius: 22px">
+                                    </li>
+                                    <li>
+                                        <img src="./images/iphone/1.jpg" style="border-radius: 22px">
+                                    </li>
+                                    <li>
+                                        <img src="./images/iphone/2.jpg" style="border-radius: 22px">
                                     </li>
                                 </ul>
                                 <!--//slides-->
@@ -199,14 +199,45 @@
                         </div>
                     </div>
                 </div>
-                <!--//row-->
-                <div class="w-100 mb-3 d-block d-md-none">
-                    <div class="w-100 d-flex justify-content-center">
-                        <!-- <iframe class="embed-responsive-item" height="200px" src="https://www.youtube.com/embed/JhZVbFFQeGA"
-                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-                        <iframe class="embed-responsive-item" height="200px"
-                            src="https://www.youtube.com/embed/XOPWyYhpSSo" frameborder="0"
-                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="promo">
+                    <div class="overview d-block d-md-none col-lg-8 col-12">
+                        <div class="download-area pb-0 w-100 text-center">
+                            <ul class="list-inline ml-0 mb-0">
+                                <li class="ios-btn list-inline-item mx-2">
+                                    <a href="https://itunes.apple.com/vn/app/shotel/id1444842070" class="m-0">Tải về từ
+                                        App
+                                        Store</a>
+                                </li>
+                                <li class="android-btn list-inline-item mx-2">
+                                    <a href="https://play.google.com/store/apps/details?id=shotel.vn" class="m-0">Tải
+                                        về từ Google Play</a>
+                                </li>
+                            </ul>
+                            <!--//note-->
+                            <div class="note text-center w-100 mt-3">
+                                <!-- <p class="p-0">Dùng thử 7 ngày miễn phí</p> -->
+                                <!-- <span class="left-arrow"></span>
+                                <span class="right-arrow"></span> -->
+                                <div class="slider-web d-flex w-100 mb-4 pb-2">
+                                    <div class="flex-grow-1"></div>
+                                    <button class="btn btn-danger btn-sm" onclick="register()"><i
+                                            class="fa fa-user"></i>
+                                        Đăng ký
+                                        ngay</button>
+                                    <div class="flex-grow-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--//row-->
+                    <div class="w-100 mb-3 d-block d-md-none">
+                        <div class="w-100 d-flex justify-content-center">
+                            <!-- <iframe class="embed-responsive-item" height="200px" src="https://www.youtube.com/embed/JhZVbFFQeGA"
+                                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+                            <iframe class="embed-responsive-item" height="200px"
+                                src="https://www.youtube.com/embed/XOPWyYhpSSo" frameborder="0"
+                                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>

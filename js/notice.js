@@ -10,7 +10,7 @@ $(function () {
         var data = {
             password: password,
             title: $('#title').val(),
-            body: editor.root.innerHTML.replace("<p><br></p>", "<p></p>"),
+            body: editor.root.innerHTML.split("<p><br></p>").join("<p></p>"),
             isAll: $("#isAll").is(':checked'),
         };
         $.ajax({

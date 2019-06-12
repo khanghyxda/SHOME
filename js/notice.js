@@ -5,17 +5,18 @@ var editor = new Quill('#editor', {
 
 $(function () {
     var password = window.prompt("password", "");
-    var url = "http://localhost:8000/Mail/SendNotice"
-    var data = {
-        password: password,
-        title: $('#title').val(),
-        body: "body",
-    };
+    var url = "https://req.shotel.vn/Mail/SendNotice"
     $("#btnSend").click(function (event) {
+        var data = {
+            password: password,
+            title: $('#title').val(),
+            body: editor.root.innerHTML,
+            isAll: $("#isAll").is(':checked'),
+        };
         $.ajax({
             type: "POST",
             url: url,
-            data: data,
+            data: JSON.stringify(data),
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             success: function (msg) {

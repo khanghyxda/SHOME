@@ -17,9 +17,9 @@ function getData(dayBefore) {
         dataType: "json",
         success: function (data) {
             var reports = data.reports;
-            var dataChart = [['Date', 'Register', 'Action User']];
+            var dataChart = [['Date', 'Register', 'Action User', 'Create Room User']];
             reports.forEach(function (elm) {
-                dataChart.push([moment(elm.day).format("DD"), elm.numberUser, elm.numberUserLog])
+                dataChart.push([moment(elm.day).format("DD"), elm.numberUser, elm.numberUserLog, elm.numberUserRoom])
             });
             drawChart('report', dataChart);
         },

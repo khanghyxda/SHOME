@@ -1,3 +1,8 @@
+<style>
+    #table-data td, #table-data th{
+        padding: 8px;
+    }
+</style>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -8,6 +13,19 @@
         <button type="button" class="btn" onclick="getData(20)">20</button>
         <button type="button" class="btn" onclick="getData(30)">30</button>
     </div>
+</div>
+<div class="w-100 px-5 d-flex justify-content-center">
+    <table class="table-bordered" id="table-data">
+        <thead>
+            <th>Date</th>
+            <th>Action</th>
+            <th>Register</th>
+            <th>CreateRoom</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
 </div>
 
 <!-- Include the Quill library -->

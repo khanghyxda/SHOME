@@ -20,6 +20,12 @@ function getData(dayBefore) {
             var dataChart = [['Date', 'Register', 'Action User', 'Create Room User']];
             reports.forEach(function (elm) {
                 dataChart.push([moment(elm.day).format("DD"), elm.numberUser, elm.numberUserLog, elm.numberUserRoom])
+                $("#table-data tbody").append("<tr>")
+                $("#table-data tbody").append("<td>" + moment(elm.day).format("DD") + "</td>")
+                $("#table-data tbody").append("<td>" + joinArray(elm.userLog) + "</td>")
+                $("#table-data tbody").append("<td>" + joinArray(elm.userRegister) + "</td>")
+                $("#table-data tbody").append("<td>" + joinArray(elm.userRoom) + "</td>")
+                $("#table-data tbody").append("</tr>")
             });
             drawChart('report', dataChart);
         },
@@ -29,13 +35,19 @@ function getData(dayBefore) {
     });
 }
 
+function joinArray(array) {
+    return array.map(function(elem){
+        return elem.id;
+    }).join(",");
+}
+
 function drawChart(elementId, data) {
     console.log(data);
     var options = {
         title: 'Report',
         legend: { position: 'bottom' }
     };
-    
+
     const chartFunc = () => {
         return new google.visualization.LineChart(document.getElementById(elementId));
     };

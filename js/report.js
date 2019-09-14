@@ -5,7 +5,7 @@ $(function () {
 });
 
 function getData(dayBefore) {
-    var url = "https://req.shotel.vn/Admin/Report"
+    var url = urlApi + "/Admin/Report"
     var data = {
         dayBefore: dayBefore
     };

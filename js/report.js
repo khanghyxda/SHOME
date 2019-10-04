@@ -1,7 +1,7 @@
 google.charts.load('current', { 'packages': ['corechart'] });
 
 $(function () {
-    getData(10);
+    getData(15);
 });
 
 function getData(dayBefore) {

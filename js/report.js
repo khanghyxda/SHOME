@@ -16,6 +16,7 @@ function getData(dayBefore) {
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {
+            $("#table-data tbody").empty();
             var reports = data.reports;
             var dataChart = [['Date', 'Register', 'Action User', 'Create Room User']];
             reports.forEach(function (elm) {

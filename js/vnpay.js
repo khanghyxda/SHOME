@@ -6,12 +6,14 @@ $(document).ready(function () {
 
     $("#dtFrom").datepicker({
         showAnim: "drop",
+        dateFormat: 'dd/mm/yy',
         defaultDate: new Date(),
     });
     $("#dtFrom").datepicker('setDate', new Date());
 
     $("#dtTo").datepicker({
         showAnim: "drop",
+        dateFormat: 'dd/mm/yy',
         defaultDate: new Date(),
     });
     $("#dtTo").datepicker('setDate', new Date());

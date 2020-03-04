@@ -56,7 +56,7 @@ function updateTable(data) {
             data[i].type.name,
             data[i].type.price,
             status,
-            data[i].temp.transactionNo,
+            // data[i].temp.transactionNo,
             data[i].time];
         dataSet.push(dataRow)
     }

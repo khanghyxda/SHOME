@@ -341,9 +341,9 @@ body {
   }
   /* ======= Footer ======= */
   .footer {
-    background: #444;
+    /* background: #444;
     color: #fff;
-    padding: 15px 0;
+    padding: 15px 0; */
   }
   .footer .copyright {
     color: #b3b3b3;

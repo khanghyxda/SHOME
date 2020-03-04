@@ -52,10 +52,11 @@ function updateTable(data) {
         }
         var dataRow = [data[i].temp.paymentId,
             data[i].temp.mainUserId,
-            data[i].temp.transactionNo,
             data[i].temp.code,
-            data[i].codeName,
+            data[i].type.name,
+            data[i].type.price,
             status,
+            data[i].temp.transactionNo,
             data[i].time];
         dataSet.push(dataRow)
     }

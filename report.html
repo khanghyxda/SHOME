@@ -10,7 +10,13 @@
 
 <div id="report" class="w-100 px-3" style="height: 500px"></div>
 <div class="w-100 d-flex justify-content-center">
-    <div class="btn-group" role="group" aria-label="Basic example">
+    <div class="btn-group" role="group">
+        <button type="button" class="btn" onclick="setUrlApi('https://req.shotel.vn')">SHOTEL</button>
+        <button type="button" class="btn" onclick="setUrlApi('https://api.azhotel.net')">AZHOTEL</button>
+    </div>
+</div>
+<div class="w-100 my-3 d-flex justify-content-center">
+    <div class="btn-group" role="group">
         <button type="button" class="btn" onclick="getData(15)">15</button>
         <button type="button" class="btn" onclick="getData(20)">20</button>
         <button type="button" class="btn" onclick="getData(30)">30</button>

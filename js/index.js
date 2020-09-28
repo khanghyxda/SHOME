@@ -78,7 +78,7 @@ jQuery(document).ready(function ($) {
 
     //Only animate elements when using non-mobile devices    
     if (isMobile.any === false) {
-
+        return;
         /* Animate elements in #Promo */
         $('#promo .title').css('opacity', 0).one('inview', function (isInView) {
             if (isInView) { $(this).addClass('animated fadeInUp delayp1'); }

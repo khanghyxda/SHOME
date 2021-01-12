@@ -29,7 +29,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
     <link rel="stylesheet" href="./css/index.css?v=8">
     <script src="./js/index.js?v=9"></script>
-</head>
+
+</head><!-- Global site tag (gtag.js) - Google Ads: 780209197 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-780209197"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-780209197');
+</script>
+<!-- Event snippet for SHOTEL Outbound click conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-780209197/nCjSCMCT1PABEK2YhPQC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
 
 <body>
     <!-- ******HEADER****** -->
